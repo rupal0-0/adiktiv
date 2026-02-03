@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎉 Happy Birthday 🎉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="slide active">
+  <h1>🎉 HAPPY BIRTHDAY ADIKTIV🎉</h1>
+  <p>Wishing my cutie a day filled with love, smiles and joy 😋😋✨</p>
+  <button onclick="nextSlide()">Next ➜</button>
+</div>
+
+
+<div class="slide">
+  <h2>Make a Wish 🎂</h2>
+  <canvas id="cakeCanvas" width="360" height="320"></canvas>
+  <p>Click on candles to blow them ✨</p>
+  <button onclick="nextSlide()">Next ➜</button>
+</div>
+
+
+<div class="slide">
+  <h2>💖 A Special Note 💖</h2>
+  <p class="note">
+   Wishing the happiest birthday to my love<br><br>
+May your life be filled with endless happiness,success, and moments with me hehe 😋<br>
+Never forget how deeply loved and special you are to me 😋<br>
+I love you so, so much…mwaaah❤️✨<br>
+happy birthday again cutieee 😋 🎉
+  </p>
+  <button onclick="nextSlide()">Next ➜</button>
+</div>
+
+<!-- SLIDE 4 -->
+<div class="slide">
+  <h2 id="loveText">Do you love me? 💖</h2>
+
+  <div class="love-buttons">
+    <button onclick="sayYes()">Yes 😋</button>
+    <button id="noBtn" onclick="sayNo()">No 😐</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
